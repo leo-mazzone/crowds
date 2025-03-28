@@ -1,7 +1,7 @@
 pub mod ola;
 
-mod lattice;
+pub mod lattice;
 
-mod generalisation;
+pub mod generalisation;
 
-mod information_loss;
+pub mod information_loss;
