@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use crate::k_anonimity::generalisation::GenRule;
+use crate::k_anonimity::generalisation::RuleMap;
 
 pub enum Suitability {
     Suitable,
@@ -8,7 +8,7 @@ pub enum Suitability {
 }
 
 pub struct Lattice {
-    pub rules: HashMap<String, GenRule>,
+    pub rules: RuleMap,
 }
 
 pub struct Node {
